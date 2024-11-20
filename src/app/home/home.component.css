@@ -1,0 +1,56 @@
+:root {
+    --main-color:#a4e1f3;
+    --text-color:#012e3b;
+    --shadow-color:#eaeaea;
+}
+
+.navbar-nav {
+    font-size: 25px;
+}
+.navbar{
+    background-color: #a4e1f3;
+}
+.navbar-brand {
+ margin-left: 5rem;
+ font-size: 40px;
+  color: #012e3b; 
+}
+ 
+/* Left Section  */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Splits into two equal columns */
+    height: 80vh; /* Full viewport height */
+    padding-top: 2cm;
+    color : #004257;
+}
+
+.left-section {
+    background-color: #a4e1f3;
+    border-radius: 10%;
+    height: 63vh;
+    margin-top: 2.9cm;
+    width: 70%;
+
+}
+.container .left-section .title{
+ margin-top: 50px;
+ font-size: 50px;
+}
+
+
+
+/*  Right Section  */
+.right-section {
+    background-color: white;
+}
+
+.container .left-section  {
+    text-align: center;
+
+}
+.container .right-section img{
+ height: 600px;
+ margin-left: 20%;
+ border-radius: 10%;
+}
